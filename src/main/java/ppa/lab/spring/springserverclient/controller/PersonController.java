@@ -1,16 +1,16 @@
-package ppa.lab.spring.springserverwww.controller;
+package ppa.lab.spring.springserverclient.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import ppa.lab.spring.springserverwww.exception.RestException;
-import ppa.lab.spring.springserverwww.exception.RestResponseBean;
-import ppa.lab.spring.springserverwww.exception.ServiceException;
-import ppa.lab.spring.springserverwww.model.dto.SimplePersonDto;
-import ppa.lab.spring.springserverwww.service.api.SimplePersonService;
-import ppa.lab.spring.springserverwww.utils.HttpResponseUtil;
+import ppa.lab.spring.springserverclient.exception.RestException;
+import ppa.lab.spring.springserverclient.exception.RestResponseBean;
+import ppa.lab.spring.springserverclient.exception.ServiceException;
+import ppa.lab.spring.springserverclient.model.dto.SimplePersonDto;
+import ppa.lab.spring.springserverclient.service.api.SimplePersonService;
+import ppa.lab.spring.springserverclient.utils.HttpResponseUtil;
 
 @RestController
 @RequestMapping("/person")

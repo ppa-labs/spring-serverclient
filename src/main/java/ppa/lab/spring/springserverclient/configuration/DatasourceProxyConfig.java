@@ -1,4 +1,4 @@
-package ppa.lab.spring.springserverwww.configuration;
+package ppa.lab.spring.springserverclient.configuration;
 
 import net.ttddyy.dsproxy.listener.logging.DefaultQueryLogEntryCreator;
 import net.ttddyy.dsproxy.listener.logging.SLF4JLogLevel;

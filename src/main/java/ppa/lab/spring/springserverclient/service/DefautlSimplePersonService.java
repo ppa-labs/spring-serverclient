@@ -1,10 +1,10 @@
-package ppa.lab.spring.springserverwww.service;
+package ppa.lab.spring.springserverclient.service;
 
 import org.springframework.stereotype.Service;
-import ppa.lab.spring.springserverwww.exception.ServiceException;
-import ppa.lab.spring.springserverwww.model.dto.SimplePersonDto;
-import ppa.lab.spring.springserverwww.model.repository.SimplePersonRepository;
-import ppa.lab.spring.springserverwww.service.api.SimplePersonService;
+import ppa.lab.spring.springserverclient.exception.ServiceException;
+import ppa.lab.spring.springserverclient.model.dto.SimplePersonDto;
+import ppa.lab.spring.springserverclient.model.repository.SimplePersonRepository;
+import ppa.lab.spring.springserverclient.service.api.SimplePersonService;
 import ppa.spring.domain.bean.SimplePerson;
 
 import java.util.Optional;

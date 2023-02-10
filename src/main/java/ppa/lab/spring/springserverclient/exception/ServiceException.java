@@ -1,4 +1,4 @@
-package ppa.lab.spring.springserverwww.exception;
+package ppa.lab.spring.springserverclient.exception;
 
 public class ServiceException extends Exception {
     private String errorCode;

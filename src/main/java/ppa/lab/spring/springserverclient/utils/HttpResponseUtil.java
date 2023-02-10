@@ -1,9 +1,9 @@
-package ppa.lab.spring.springserverwww.utils;
+package ppa.lab.spring.springserverclient.utils;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import ppa.lab.spring.springserverwww.exception.RestResponseBean;
+import ppa.lab.spring.springserverclient.exception.RestResponseBean;
 
 import java.time.LocalDateTime;
 

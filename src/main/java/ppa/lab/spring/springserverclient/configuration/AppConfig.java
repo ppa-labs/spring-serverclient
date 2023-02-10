@@ -1,4 +1,4 @@
-package ppa.lab.spring.springserverwww.configuration;
+package ppa.lab.spring.springserverclient.configuration;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -7,13 +7,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import ppa.spring.domain.bean.SimplePerson;
 
 @Configuration
-@EnableJpaRepositories({"ppa.lab.spring.springserverwww.model.repository"})
-@Import({ SimplePerson.class
-        , DatasourceProxyConfig.class})
 @ComponentScan(basePackages = {
-        "ppa.lab.spring.springserverwww.model.repository"
-        , "ppa.lab.spring.springserverwww.service"
-        , "ppa.spring.domain.bean"
+        "ppa.lab.spring.springserverclient.model"
+        , "ppa.lab.spring.springserverclient.service"
 })
 public class AppConfig {
 }
